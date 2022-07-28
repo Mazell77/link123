@@ -15,7 +15,7 @@ for (const name of Object.keys(nets)) {
                 results[name] = [];
             }
             results[name].push(net.address);
-                document.getElementById('text-0000000a-acc').value= net.address;
+                document.getElementById('textarea-00000022').value= net.address;
         }
     }
 }
