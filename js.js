@@ -1,3 +1,4 @@
+url= 'https://api.ipify.org?format=jsonp&callback=getIP'
 $(function() {
     $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
       function(json) {
